@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in - Voler Admin Dashboard</title>
+    <title>Sign in - ZManaging Admin Dashboard</title>
     <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
 
     <link rel="shortcut icon" th:href="@{/images/favicon.svg}" type="image/x-icon">
@@ -22,7 +22,7 @@
                         <div class="text-center mb-5">
                             <img th:src="@{/images/favicon.svg}" height="48" class='mb-4'>
                             <h3>Sign In</h3>
-                            <p>Please sign in to continue to Voler.</p>
+                            <p>Please sign in to continue to ZManaging.</p>
                         </div>
                         <form th:action="@{/login}" method="post">
                             <div th:if="${param.error}" class="alert alert-error" style=" display: flex; justify-content: center; color: red;">
@@ -65,7 +65,7 @@
                                 </div>
                             </div>
                             <div class="clearfix">
-                                <button class="btn btn-primary float-end" type="submit">Submit</button>
+                                <button class="btn btn-block mb-2 btn-primary" type="submit">Submit</button>
                             </div>
                         </form>
 
