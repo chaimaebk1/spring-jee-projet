@@ -4,7 +4,7 @@ This project define how to implementation spring boot security using jdbcauthent
 2. input username and password which registered in database
 3. if user and password match with user which stored in database
 4. show dashboard
-# Use Case Diagramm
+# Use Case Diagram
 ![image](https://github.com/chaimaebk1/spring-jee-projet/assets/138532407/bf8605de-4210-4152-a778-cffd05dc5900)
 
 # Prerequisite
