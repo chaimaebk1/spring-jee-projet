@@ -4,6 +4,8 @@ This project define how to implementation spring boot security using jdbcauthent
 2. input username and password which registered in database
 3. if user and password match with user which stored in database
 4. show dashboard
+# Use Case Diagramm
+![image](https://github.com/chaimaebk1/spring-jee-projet/assets/138532407/bf8605de-4210-4152-a778-cffd05dc5900)
 
 # Prerequisite
 - Intellij Idea i use community version
@@ -28,6 +30,14 @@ VALUES(1, 'amin', '$2a$10$XptfskLsT1l/bRTLRiiCgejHqOpgXFreUnNUa35gJdCr2v2QbVFzu'
 INSERT INTO blog.users
 (user_id, username, password, `role`, enabled)
 VALUES(2, 'admin', '$2a$10$zxvEq8XzYEYtNjbkRsJEbukHeRx3XS6MDXHMu8cNuNsRfZJWwswDy', 'ROLE_ADMIN', 1);
+
+# Screenshots for better Understanding :
+![image](https://github.com/chaimaebk1/spring-jee-projet/assets/138532407/83ea8da4-b098-49c7-b1fe-0315ffc2a2ca)
+
+![image](https://github.com/chaimaebk1/spring-jee-projet/assets/138532407/f64b5189-73dc-4a6d-b0d5-14d16cfe7724)
+
+![image](https://github.com/chaimaebk1/spring-jee-projet/assets/138532407/67a84bf8-033b-4533-91fc-953443313dea)
+
 
 # How to run this project in your local computer
 - download this project
